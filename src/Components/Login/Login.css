@@ -1,0 +1,21 @@
+form{
+    margin-top: 15%;
+}
+
+form > div{
+    display: inline-grid;
+}
+
+label{
+    margin:10px 0 5px 0;
+    text-align: left;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 15px;
+    margin-right: 25px;
+    width: 100%;
+    display: block;
+}
