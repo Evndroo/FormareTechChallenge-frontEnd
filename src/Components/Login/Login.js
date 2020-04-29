@@ -36,6 +36,8 @@ function Login() {
                     <label htmlFor="password">Senha</label>
                     <input type="password" name="password" id="password" placeholder="Digite sua senha" value={password} onChange={event => setPassword(event.target.value)}/>
                     <br/>
+                    <a href="/register" >Não possui cadastro? Clique aqui para se cadastrar</a>
+                    <br/>
                     <button className="btn" type="submit">Login</button>
                 </div>
             </form>
